@@ -1,0 +1,9 @@
+Custom error pages
+	http://stackoverflow.com/questions/13914575/how-to-build-server-level-custom-error-page-in-tomcat
+
+Custom domain name for heroku app
+	https://devcenter.heroku.com/articles/custom-domains
+	Had to verify account (input credit card information) before I could use credit card information
+	http://stackoverflow.com/questions/14125175/setup-heroku-and-godaddy
+	^ Helpful for the justhost.com side of things 
+	
