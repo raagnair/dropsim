@@ -16,14 +16,10 @@ body, html {
     position: absolute;
     top: 50%;
     left: 50%;
-    margin-top: -150px;
+    margin-top: -25vh;
     margin-left: -50%;
     width: 100%;
-    height: 300px;
-}
-
-.call_to_action {
-	height: 300px;
+    height: 50vh;
 }
 
 .badass_quote {	
@@ -36,4 +32,4 @@ body, html {
 	text-align: center;
 	font-size: 30px;
 	font-weight: 200;
-}​
+}
