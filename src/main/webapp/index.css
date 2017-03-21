@@ -1,0 +1,39 @@
+body, html {
+	height: 100%;
+	margin: 0px;
+	font-family: 'Dosis', sans-serif;
+}
+
+.splash_to_the_face {
+    background-image: url("http://imgur.com/UxHKDNn.jpg");
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.center_fold {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -150px;
+    margin-left: -50%;
+    width: 100%;
+    height: 300px;
+}
+
+.call_to_action {
+	height: 300px;
+}
+
+.badass_quote {	
+    color: #a4aea6;
+    background-color: #1e1f19;
+	margin: auto;
+	width: 75%;
+	max-width: 750px;
+	padding: 20px;
+	text-align: center;
+	font-size: 30px;
+	font-weight: 200;
+}​
