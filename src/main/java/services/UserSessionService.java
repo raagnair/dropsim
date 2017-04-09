@@ -23,6 +23,10 @@ public class UserSessionService {
 		this.random = new SecureRandom();
 	}
 
+	public static UserSessionService getInstance() {
+		return getInstance(ElephantDriver.getInstance());
+	}
+
 	public static UserSessionService getInstance(ElephantDriver driver) {
 		if (INSTANCE == null) {
 			synchronized (lock) {
@@ -46,5 +50,9 @@ public class UserSessionService {
 
 	public String getEmailForSession(String sid) {
 		return this.activeUsers.get(sid);
+	}
+
+	public boolean isSessionValid(String sid) {
+		return getEmailForSession(sid) != null;
 	}
 }

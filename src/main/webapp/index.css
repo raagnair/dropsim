@@ -1,11 +1,11 @@
 body, html {
-	height: 100%;
-	margin: 0px;
-	font-family: 'Dosis', sans-serif;
+	height: 100% !important;
+	margin: 0px !important;
+	font-family: 'Dosis', sans-serif !important;
 }
 
 .splash_to_the_face {
-    background-image: url("http://imgur.com/UxHKDNn.jpg");
+    background-image: url("https://imgur.com/YsrNiFJ.jpg");
     height: 100%; 
     background-position: center;
     background-repeat: no-repeat;
@@ -24,7 +24,8 @@ body, html {
 
 .badass_quote {	
     color: #a4aea6;
-    background-color: #1e1f19;
+    background-color: #2d2226;
+    line-height: 20%;
 	margin: auto;
 	width: 75%;
 	max-width: 750px;
@@ -32,4 +33,12 @@ body, html {
 	text-align: center;
 	font-size: 30px;
 	font-weight: 200;
+	font-family: ShopScript;
+}
+
+.call_to_action {
+	width: 75%;
+	margin: 10px auto !important;
+	color: #a4aea6;
+	background-color: #1c1b21;
 }

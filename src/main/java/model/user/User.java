@@ -1,6 +1,6 @@
 package model.user;
 
-import model.interfaces.DBObject;
+import model.abstracts.DBObject;
 
 public class User extends DBObject {
 	private String email;

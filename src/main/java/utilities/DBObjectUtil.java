@@ -1,6 +1,6 @@
 package utilities;
 
-import model.interfaces.DBObject;
+import model.abstracts.DBObject;
 
 public class DBObjectUtil {
 	public static boolean verifyDBObject(DBObject obj) {

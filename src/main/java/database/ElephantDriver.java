@@ -13,7 +13,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.ObjectReader;
 import com.fasterxml.jackson.databind.ObjectWriter;
 
-import model.interfaces.DBObject;
+import model.abstracts.DBObject;
 import utilities.DBObjectUtil;
 
 public class ElephantDriver {

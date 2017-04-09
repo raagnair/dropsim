@@ -5,7 +5,7 @@ import java.util.Map;
 import java.util.TreeMap;
 
 import database.ElephantDriver;
-import model.interfaces.DBObject;
+import model.abstracts.DBObject;
 import model.user.User;
 
 public class LogicEngine {
@@ -28,6 +28,10 @@ public class LogicEngine {
 			User usr = (User) u;
 			this.users.put(usr.getEmail(), usr);
 		}
+	}
+
+	public static LogicEngine getInstance() throws Exception {
+		return getInstance(ElephantDriver.getInstance());
 	}
 
 	public static LogicEngine getInstance(ElephantDriver driver) throws Exception {
